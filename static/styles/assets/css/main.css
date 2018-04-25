@@ -17,6 +17,11 @@
 		display: none;
 	}
 
+	#information {
+		font-size: 0.5em; 
+		margin: 0 75px 0 75px;
+		width: auto;
+	}
 
 
 
