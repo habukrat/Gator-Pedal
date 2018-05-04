@@ -1,305 +1,284 @@
 <!DOCTYPE HTML>
 <!--
-	Directive by HTML5 UP
+	Escape Velocity by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Pedal Master Pro</title>
+		<title>Pelican Pedal</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="/static/styles/assets/css/main.css" />
+		<!--[if lte IE 8]><script src="url_for('static/assets/js/ie/' filename='html5shiv.js')"></script><![endif]-->
+		<link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
-	<body>
+	<body class="homepage">
+		<div id="page-wrapper">
 
-		<!-- Header -->
-			<div id="header">
-				<span class="fa fa-music"></span>
-				<h1>Hi. We are Pedal Master Pro.</h1>
-				<p> Pedal Master Pro is a for-profit organization that serves both B2C and B2B customers <br />
-				who need versatile and high functioning guitar pedals. <br />
-				We will generate revenue using a retail revenue model.</p>
-			</div>
+			<!-- Header -->
+				<div id="header-wrapper" class="wrapper">
+					<div id="header">
 
-		<!-- Main -->
-			<div id="main">
-
-				<header class="major container 75%">
-					<h2>
-					For decades, electric guitars have remained largely unaffected from the influence of an ever changing technological landscape. Guitarists who want to achieve a unique sound often must purchase hundreds or even thousands of dollars worth of effects pedals and other gear. This becomes burdensome for the working musician, as this gear requires a somewhat lengthy set up and testing process before each gig. Traditional guitar pedals also must be physically adjusted if they player wishes to use the same pedals for different styles of music, causing loss of the previously used settings. And furthermore, this equipment doesn't offer the player a convenient way of recording their sounds.
-					<br /><br />
-					Pedal Modeler Pro intends to incorporate technology into this marketplace by utilizing a digital user interface and the Internet of Things to provide a satisfying and convenient solution to these issues. Pedal Modeler Pro is a fully digital pedal board that allows the player to use numerous guitar effects, such as reverb, distortion, pitch shifting, and much more. These effects can be saved to profiles such as Rock, Metal, Country, etc. and allow for effortless transition between genres without any physical alteration of the settings on the pedal itself. This pedal board also has capabilities to record several minutes of audio, with the option of saving an audio file to a remote server, or playing the audio back as a looper pedal.
-					<br /><br />
-					In addition to having a built-in LCD showing active effects, this pedal board can also be paired with the Pedal Modeler App, allowing the player to access profile settings and modify them with ease. From this app, players are able to see a comprehensive list of effects and assign effects to different buttons on the pedal board . This app also shows any audio files that were recorded using the Pedal Modeler Pro, and gives the player the option to download the file to whichever device they are using.
-					<br /><br />
-					Our pedal board is connected to the guitar using a wireless connection which allows the player to move freely about a stage while performing without worry of tangling or stepping on the cord and it also eliminates the high frequency sound degradation experienced by using longer cords. The wireless transmitter also acts as a proximity detector and can be used to control stage lighting by illuminating the part of the stage where the player is standing. 
-					<br /><br />
-					Other features of the Pedal Modeler Pro include a built in metronome and tuner with LED indicator lights as well as sensor that measures the orientation of the guitar and can be used for generating custom effects such as a "whammy bar". This sensor is turned on/off on the pedal board as well.
-					<br /><br />
-					Pedal Modeler Pro was designed with amateur and semi-professional guitar players in mind but it can also be used by bassists, keyboard players, or even vocalists looking to achieve an innovative new sound. 
-					</h2>
-					<!--
-					<p>Tellus erat mauris ipsum fermentum<br />
-					etiam vivamus nunc nibh morbi.</p>
-					-->
-				</header>
-
-				<div class="box alt container">
-					<section class="feature left">
-						<a href="#" class="image icon fa-tint"><img src="/static/images/pic01.jpg" alt="" /></a>
-						<div class="content">
-							<h3>The Problem</h3>
-							<p>The problem is that music, especially produced by guitars, has not kept up with technology over the last couple of decades. The very minimal technology available to guitar players requires a lot of different expensive equipment to record audio and alter sounds.</p>
-						</div>
-					</section>
-					<section class="feature right">
-						<a href="#" class="image icon fa-bolt"><img src="/static/images/pic02.jpg" alt="" /></a>
-						<div class="content">
-							<h3>The Solution</h3>
-							<p>Our product solves the problem of requiring expensive equipment by offering a less expensive alternative. The Gator Pedal implements a simpler method and interconnectivity to make this technology more available and modern, while still being compatible with older equipment.</p>
-						</div>
-					</section>
-					<section class="feature left">
-						<a href="#" class="image icon fa-check-circle"><img src="/static/images/pic03.jpg" alt="" /></a>
-						<div class="content">
-							<h3>The Features</h3>
-							<ul>
-								<li>Wireless</li>
-								<li>Multiple Effects</li>
-								<li>Saves Audio</li>
-								<li>Tuner</li>
-								<li>Metronome</li>
-							</ul>
-						</div>
-					</section>
-				</div>
-
-				<!--
-				<div class="box container">
-					<header>
-						<h2>A lot of generic stuff</h2>
-					</header>
-					<section>
-						<header>
-							<h3>Paragraph</h3>
-							<p>This is the subtitle for this particular heading</p>
-						</header>
-						<p>Phasellus nisl nisl, varius id <sup>porttitor sed pellentesque</sup> ac orci. Pellentesque
-						habitant <strong>strong</strong> tristique <b>bold</b> et netus <i>italic</i> malesuada <em>emphasized</em> ac turpis egestas. Morbi
-						leo suscipit ut. Praesent <sub>id turpis vitae</sub> turpis pretium ultricies. Vestibulum sit
-						amet risus elit.</p>
-					</section>
-					<section>
-						<header>
-							<h3>Blockquote</h3>
-						</header>
-						<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
-						tempus euismod. Vestibulum ante ipsum primis in faucibus.</blockquote>
-					</section>
-					<section>
-						<header>
-							<h3>Divider</h3>
-						</header>
-						<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
-						ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-						facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-						tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-						posuere cubilia.</p>
-						<hr />
-						<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
-						ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-						facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-						tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-						posuere cubilia.</p>
-					</section>
-					<section>
-						<header>
-							<h3>Unordered List</h3>
-						</header>
-						<ul class="default">
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-						</ul>
-					</section>
-					<section>
-						<header>
-							<h3>Ordered List</h3>
-						</header>
-						<ol class="default">
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-						</ol>
-					</section>
-					<section>
-						<header>
-							<h3>Table</h3>
-						</header>
-						<div class="table-wrapper">
-							<table class="default">
-								<thead>
-									<tr>
-										<th>ID</th>
-										<th>Name</th>
-										<th>Description</th>
-										<th>Price</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>45815</td>
-										<td>Something</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>29.99</td>
-									</tr>
-									<tr>
-										<td>24524</td>
-										<td>Nothing</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>19.99</td>
-									</tr>
-									<tr>
-										<td>45815</td>
-										<td>Something</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>29.99</td>
-									</tr>
-									<tr>
-										<td>24524</td>
-										<td>Nothing</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>19.99</td>
-									</tr>
-								</tbody>
-								<tfoot>
-									<tr>
-										<td colspan="3"></td>
-										<td>100.00</td>
-									</tr>
-								</tfoot>
-							</table>
-						</div>
-					</section>
-					<section>
-						<header>
-							<h3>Form</h3>
-						</header>
-						<form method="post" action="#">
-							<div class="row">
-								<div class="6u 12u(mobilep)">
-									<label for="name">Name</label>
-									<input class="text" type="text" name="name" id="name" value="" placeholder="John Doe" />
-								</div>
-								<div class="6u 12u(mobilep)">
-									<label for="email">Email</label>
-									<input class="text" type="text" name="email" id="email" value="" placeholder="johndoe@domain.tld" />
-								</div>
+						<!-- Logo -->
+							<div id="logo">
+								<h1><a href="index.html">Pelican Pedal</a></h1>
+								<p>An IOT Guitar Pedal</p>
 							</div>
-							<div class="row">
-								<div class="12u">
-									<label for="subject">Subject</label>
-									<input class="text" type="text" name="subject" id="subject" value="" placeholder="Enter your subject" />
-								</div>
-							</div>
-							<div class="row">
-								<div class="12u">
-									<label for="subject">Message</label>
-									<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
-								</div>
-							</div>
-							<div class="row">
-								<div class="12u">
-									<ul class="actions">
-										<li><input type="submit" value="Send" /></li>
-										<li><input type="reset" value="Reset" class="alt" /></li>
-									</ul>
-								</div>
-							</div>
-						</form>
-					</section>
-				</div>
-				-->
 
-				<!-- <footer class="major container 75%">
-					<h3>Get shady with umbrellas</h3>
-					<p> Get more information about our product by clicking the button below.</p>
-					<ul class="actions">
-						<li><a href="https://docs.google.com/presentation/d/12iGvNmWgb-I1QpTQ3gZmrKMa7WkSjC0a6OEjxkI9PuY/edit?usp=sharing" class="button">Find out more!</a></li>
-					</ul>
-				</footer> -->
-
-			</div>
-
-		<!-- Footer -->
-			<div id="footer">
-				<div class="container 75%">
-
-					<header class="major last">
-						<h2>Questions or comments? Want to fund us?</h2>
-					</header>
-
-					<p>If you think our product is awesome and want to invest, give us all your info and money! <br />
-					If not, that's cool too. Let us know if you have any questions!</p>
-
-					<form method="post" action="https://formspree.io/aiwong@ucsd.edu">
-						<div class="row">
-							<div class="6u 12u(mobilep)">
-								<input type="text" name="name" placeholder="Name" />
-							</div>
-							<div class="6u 12u(mobilep)">
-								<input type="email" name="email" placeholder="Email" />
-							</div>
-						</div>
-						<div class="row">
-							<div class="12u">
-								<textarea name="message" placeholder="Message" rows="6"></textarea>
-							</div>
-						</div>
-						<div class="row">
-							<div class="12u">
-								<ul class="actions">
-									<li><input type="button" value="Send Message" id="sendMessage"/></li>
-									<h2 id="thankyou">Thank you! We'll be keeping in touch :)</h2>
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li class="current"><a href="index.html">Home</a></li>
+									
+									<li><a href="about.html">About Us</a></li>
+									<li><a href="product.html">Our Product</a></li>
+									<li><a href="competitors.html">Competitive Analysis</a></li>
 								</ul>
+							</nav>
+
+					</div>
+				</div>
+
+			<!-- Intro -->
+				<div id="intro-wrapper" class="wrapper style1">
+					<div class="title">Our Story</div>
+					<section id="intro" class="container">
+						<p class="style1">Hi, this is little bit about us...</p>
+						<p class="style2">
+							Pelican Pedal is a for-profit organization that serves both B2C and B2B customers 
+who need versatile and high functioning guitar pedals. 
+We will generate revenue using a retail revenue model.<br class="mobile-hide" />
+						<!--	<a href="http://html5up.net" class="nobr">HTML5 UP</a>
+						</p>
+						<p class="style3">It's <strong>responsive</strong>, built on <strong>HTML5</strong> and <strong>CSS3</strong>, and released for
+						free under the <a href="http://html5up.net/license">Creative Commons Attribution 3.0 license</a>, so use it for any of
+						your personal or commercial projects &ndash; just be sure to credit us!</p> -->
+					<!--	<ul class="actions">
+							<li><a href="#" class="button style3 big">Proceed</a></li>
+						</ul> --->
+					</section>
+				</div>
+
+			<!-- Main -->
+				<div class="wrapper style2">
+					<div class="title">The Details</div>
+					<div id="main" class="container">
+
+						<!-- Image -->
+						<!--	<a href="#" class="image featured">
+								<img src="images/pic01.jpg" alt="" />
+							</a> -->
+
+						<!-- Features -->
+							<section id="features">
+								<header class="style1">
+									<h2>An IOT Guitar Pedal for all</h2>
+									<p>THE PROBLEM WE SEE AND OUR SOLUTION</p>
+								</header>
+								<div class="feature-list">
+									<div class="row">
+										<div class="6u 12u(mobile)">
+											<section>
+												<h3 class="icon fa-comment">The Problem</h3>
+												<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
+											</section>
+										</div>
+										<div class="6u 12u(mobile)">
+											<section>
+												<h3 class="icon fa-refresh">Lorem ipsum dolor sit veroeros</h3>
+												<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
+											</section>
+										</div>
+									</div>
+									<div class="row">
+										<div class="6u 12u(mobile)">
+											<section>
+												<h3 class="icon fa-picture-o">Pretium phasellus justo lorem</h3>
+												<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
+											</section>
+										</div>
+										<div class="6u 12u(mobile)">
+											<section>
+												<h3 class="icon fa-cog">Tempus sed pretium orci</h3>
+												<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
+											</section>
+										</div>
+									</div>
+									<div class="row">
+										<div class="6u 12u(mobile)">
+											<section>
+												<h3 class="icon fa-wrench">Aliquam consequat et feugiat</h3>
+												<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
+											</section>
+										</div>
+										<div class="6u 12u(mobile)">
+											<section>
+												<h3 class="icon fa-check">Dolore laoreet aliquam mattis</h3>
+												<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
+											</section>
+										</div>
+									</div>
+								</div>
+								<ul class="actions actions-centered">
+									<li><a href="#" class="button style1 big">Get Started</a></li>
+									<li><a href="#" class="button style2 big">More Info</a></li>
+								</ul>
+							</section>
+
+					</div>
+				</div>
+
+			<!-- Highlights -->
+				<div class="wrapper style3">
+					<div class="title">The Endorsements</div>
+					<div id="highlights" class="container">
+						<div class="row 150%">
+							<div class="4u 12u(mobile)">
+								<section class="highlight">
+									<a href="#" class="image featured"><img src="{{ url_for('static', filename='pic02.jpg') }}" alt="" /></a>
+									<h3><a href="#">Aliquam diam consequat</a></h3>
+									<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
+									<ul class="actions">
+										<li><a href="#" class="button style1">Learn More</a></li>
+									</ul>
+								</section>
+							</div>
+							<div class="4u 12u(mobile)">
+								<section class="highlight">
+									<a href="#" class="image featured"><img src="{{ url_for('static', filename='pic03.jpg') }}" alt="" /></a>
+									<h3><a href="#">Nisl adipiscing sed lorem</a></h3>
+									<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
+									<ul class="actions">
+										<li><a href="#" class="button style1">Learn More</a></li>
+									</ul>
+								</section>
+							</div>
+							<div class="4u 12u(mobile)">
+								<section class="highlight">
+									<a href="#" class="image featured"><img src="{{ url_for('static', filename='pic04.jpg') }}" alt="" /></a>
+									<h3><a href="#">Mattis tempus lorem</a></h3>
+									<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
+									<ul class="actions">
+										<li><a href="#" class="button style1">Learn More</a></li>
+									</ul>
+								</section>
 							</div>
 						</div>
-					</form>
-
-					<!-- <ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-					</ul> -->
-
-					<p>To learn more about us, follow us on instagram!</p>
-					<ul class="icons">
-						<li><a href="https://www.instagram.com/aimeewongg/" class="icon fa-instagram"><br/><div class="names">Aimee</div><span class="label">Instagram</span></a></li>
-						<li><a href="https://www.instagram.com/habukrat/" class="icon fa-instagram"><br/><div class="names">Hadar</div><span class="label">Instagram</span></a></li>
-						<li><a href="https://www.instagram.com/tylerchance9823/" class="icon fa-instagram"><br/><div class="names">Tyler</div><span class="label">Instagram</span></a></li>
-						<li><a href="https://www.instagram.com/iguessthiswillworkjk/" class="icon fa-instagram"><br/><div class="names">John</div><span class="label">Instagram</span></a></li>
-					</ul>
-
-					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-
+					</div>
 				</div>
-			</div>
+
+			<!-- Footer -->
+				<div id="footer-wrapper" class="wrapper">
+					<div class="title">Contact</div>
+					<div id="footer" class="container">
+						<header class="style1">
+							<h2>Questions or Comments? <br>Interested in Supporting our Team?</h2>
+							<p>
+								If you would like to know more about our product or team, please let us know.<br />
+								We value all input, advise, and support. 
+							</p>
+						</header>
+						<hr />
+						<div class="row 150%">
+							<div class="6u 12u(mobile)">
+
+								<!-- Contact Form -->
+									<section>
+										<form method="post" action="#">
+											<div class="row 50%">
+												<div class="6u 12u(mobile)">
+													<input type="text" name="name" id="contact-name" placeholder="Name" />
+												</div>
+												<div class="6u 12u(mobile)">
+													<input type="text" name="email" id="contact-email" placeholder="Email" />
+												</div>
+											</div>
+											<div class="row 50%">
+												<div class="12u">
+													<textarea name="message" id="contact-message" placeholder="Message" rows="4"></textarea>
+												</div>
+											</div>
+											<div class="row">
+												<div class="12u">
+													<ul class="actions">
+														<li><input type="submit" class="style1" value="Send" /></li>
+														<li><input type="reset" class="style2" value="Reset" /></li>
+													</ul>
+												</div>
+											</div>
+										</form>
+									</section>
+
+							</div>
+							<div class="6u 12u(mobile)">
+
+								<!-- Contact -->
+									<section class="feature-list small">
+										<div class="row">
+											<div class="6u 12u(mobile)">
+												<section>
+													<h3 class="icon fa-home">Mailing Address</h3>
+													<p>
+														Untitled Corporation<br />
+														1234 Somewhere Rd #987<br />
+														Nashville, TN 00000-0000
+													</p>
+												</section>
+											</div>
+											<div class="6u 12u(mobile)">
+												<section>
+													<h3 class="icon fa-comment">Social</h3>
+													<p>
+														<a href="#">@untitled-corp</a><br />
+														<a href="#">linkedin.com/untitled</a><br />
+														<a href="#">facebook.com/untitled</a>
+													</p>
+												</section>
+											</div>
+										</div>
+										<div class="row">
+											<div class="6u 12u(mobile)">
+												<section>
+													<h3 class="icon fa-envelope">Email</h3>
+													<p>
+														<a href="#">info@untitled.tld</a>
+													</p>
+												</section>
+											</div>
+											<div class="6u 12u(mobile)">
+												<section>
+													<h3 class="icon fa-phone">Phone</h3>
+													<p>
+														(000) 555-0000
+													</p>
+												</section>
+											</div>
+										</div>
+									</section>
+
+							</div>
+						</div>
+						<hr />
+					</div>
+					<div id="copyright">
+						<ul>
+							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</div>
+
+		</div>
 
 		<!-- Scripts -->
-			<script src="/static/styles/assets/js/jquery.min.js"></script>
-			<script src="/static/styles/assets/js/skel.min.js"></script>
-			<script src="/static/styles/assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="/static/styles/assets/js/main.js"></script>
+
+			<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/jquery.dropotron.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/skel.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/skel-viewport.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/util.js') }}"></script>
+			<!--[if lte IE 8]><script src="{{ url_for('static', filename='js/ie/respond.min.js') }}"></script><![endif]-->
+			<script src="{{ url_for('static', filename='js/main.js') }}"></script>
 
 	</body>
 </html>
