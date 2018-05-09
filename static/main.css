@@ -18,6 +18,24 @@
 		margin-left: 90px;
 	}
 
+	.actions {
+		display: flex;
+		justify-content: center;
+	}
+
+/*	.icons {
+		display: flex;
+		justify-content: center;
+		vertical-align: middle;
+
+	}
+
+	.instagram {
+		display: flex;
+		justify-content: center;
+		vertical-align: middle;
+
+	}*/
 
 
 /* Reset */
