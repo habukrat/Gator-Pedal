@@ -12,7 +12,6 @@
 		$('#thankyou').show();
 	});
 
-
 	skel
 		.breakpoints({
 			desktop: '(min-width: 737px)',
