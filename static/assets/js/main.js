@@ -4,7 +4,38 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
 (function($) {
+
+	//this changes swot context
+	$('#pedal').click(function(){
+		$('#pedalSWOT').show();
+		$('#line6SWOT').hide();
+		$('#bossSWOT').hide();
+		$('#digitechSWOT').hide();
+	});
+
+	$('#line6').click(function(){
+		$('#pedalSWOT').hide();
+		$('#line6SWOT').show();
+		$('#bossSWOT').hide();
+		$('#digitechSWOT').hide();
+	});
+
+	$('#boss').click(function(){
+		$('#pedalSWOT').hide();
+		$('#line6SWOT').hide();
+		$('#bossSWOT').show();
+		$('#digitechSWOT').hide();
+	});
+
+	$('#digitech').click(function(){
+		$('#pedalSWOT').hide();
+		$('#line6SWOT').hide();
+		$('#bossSWOT').hide();
+		$('#digitechSWOT').show();
+	});
+
 
 	//this changes contact buttons to say "thank you"
 	$('#sendMessage').click(function(){

@@ -38,6 +38,23 @@
 		margin: auto;
 	}
 
+	.buttons {
+		display: flex;
+		justify-content: space-around;
+		margin-bottom: 30px;
+	}
+
+	#swotTitle {
+		display: flex;
+		justify-content: center;
+	}
+
+	#pedalSWOT, #line6SWOT, #bossSWOT, #digitechSWOT {
+		display: none;
+	}
+
+
+
 /*	.icons {
 		display: flex;
 		justify-content: center;
