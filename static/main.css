@@ -27,6 +27,10 @@
 		display: none;
 	}
 
+	#learnMore {
+		display: none;
+	}
+
 /*	.icons {
 		display: flex;
 		justify-content: center;

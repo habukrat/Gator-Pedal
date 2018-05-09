@@ -6,12 +6,16 @@
 
 (function($) {
 
+	//this changes contact buttons to say "thank you"
 	$('#sendMessage').click(function(){
 		$('#sendMessage').hide();
 		$('#resetMessage').hide();
 		$('#thankyou').show();
 	});
 
+	$('#learnMore').click(function(){
+		$('#moreStory').show();
+	});
 
 	skel
 		.breakpoints({
