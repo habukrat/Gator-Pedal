@@ -1623,6 +1623,7 @@
 				background: url("images/shadow.png");
 			}
 
+		/* Pink background theme */
 		.wrapper.style1 {
 			background: #e97770 url("images/overlay.png");
 			color: #eee;
@@ -1638,6 +1639,7 @@
 				color: #fff;
 			}
 
+		/* White background theme */
 		.wrapper.style2 {
 			background: #fff;
 		}
