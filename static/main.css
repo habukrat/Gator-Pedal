@@ -61,13 +61,22 @@
 		font-size: 20px;
 	}
 
-	section p, section ul, article p, div li {
+	#white {
+		color: #fff !important;
+	}
+
+	section p, section ul, article p, div header p, div #strengths li, div #weaknesses li, div #opportunities li, div #threats li {
 		color: #232947;
 	}
 
-	#red {
-		color: #961a12;
+	.red {
+		color: #961a12 !important;
 	}
+
+	table, tr, th{
+    	border: 1px solid black !important;
+	}
+
 
 
 /*	.icons {
