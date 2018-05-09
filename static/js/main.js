@@ -6,6 +6,12 @@
 
 (function($) {
 
+	$('#sendMessage').click(function(){
+		$('#sendMessage').hide();
+		$('#resetMessage').hide();
+		$('#thankyou').show();
+	});
+
 	skel
 		.breakpoints({
 			desktop: '(min-width: 737px)',

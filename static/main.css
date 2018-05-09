@@ -23,6 +23,10 @@
 		justify-content: center;
 	}
 
+	#thankyou {
+		display: none;
+	}
+
 /*	.icons {
 		display: flex;
 		justify-content: center;
