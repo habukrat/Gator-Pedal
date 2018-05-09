@@ -46,6 +46,7 @@
 
 	$('#learnMore').click(function(){
 		$('#moreStory').show();
+		$('#learnMore').hide();
 	});
 
 	skel
