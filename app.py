@@ -2,6 +2,10 @@ import os
 from flask import Flask
 from flask import render_template
 app = Flask(__name__)
+from flask.ext.sqlalchemy import SQLAlchemy
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://localhost/[YOUR_DATABASE_NAME]'
+db = SQLAlchemy(app)
+
 
 @app.route("/")
 def launchPage():
