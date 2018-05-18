@@ -9,16 +9,23 @@
 
 /* Our added CSS */
 
+	.topofindex {
+		margin-top: -3.5em !important;
+	}
+
+	#cta {
+		font-size: 20px !important;
+	}
+
+	#login {
+		font-weight: bold;
+		font-size: 25px;
+	}
+
 	#forms {
 		padding-left: 30px;
-	}
-
-	#inputbox {
-		width: 90%;
-	}
-
-	.signup {
-		margin-top: 10px;
+		display: block;
+		justify-content: center;
 	}
 
 	.homepage {
@@ -2350,7 +2357,7 @@
 		/* Logo */
 
 			#logo {
-				margin-top: -0.5em !important;
+				margin-top: -0.5em;
 			}
 
 				#logo h1 {
