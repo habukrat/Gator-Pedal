@@ -9,6 +9,11 @@
 
 /* Our added CSS */
 
+	.smalltext {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
 	.topofindex {
 		margin-top: -3.5em !important;
 	}
@@ -24,8 +29,13 @@
 
 	#forms {
 		padding-left: 30px;
-		display: block;
+		display: inline-block;
+		text-align: left;
 		justify-content: center;
+		margin-right: 25%;
+		margin-left: 25%;
+		width: 50%;
+
 	}
 
 	.homepage {
