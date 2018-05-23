@@ -13,8 +13,12 @@
 		text-decoration: none;
 	}
 
-	a:hover {
+	button[type="button"].style1 a:hover {
 		color: #961a12;
+	}
+
+	button.style1 a {
+		color: #fff;
 	}
 
 	.logo {
