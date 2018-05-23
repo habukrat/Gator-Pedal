@@ -9,6 +9,14 @@
 
 /* Our added CSS */
 
+	a:link, a:visited {
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: #961a12;
+	}
+
 	.logo {
 		width: 5em;
 		height: 5em;"
