@@ -8,7 +8,14 @@
 */
 
 /* Our added CSS */
- 
+
+	.waitlist {
+		width: 30% !important;
+		border-radius: 5px;
+		border-color: none;
+		display: inline-block;
+	}
+
 	.feature_description {
 		color: black;
 		text-align: justify;
@@ -103,6 +110,7 @@
 	#moreStory {
 		display: none;
 		margin-top: 30px;
+		text-align: justify;
 	}
 
 	#learnMore {
@@ -1590,8 +1598,8 @@
 		input[type="reset"].style3,
 		button.style3,
 		.button.style3 {
-			background: #2f333b url("images/overlay.png");
-			color: #fff;
+			background: #fff url("images/overlay.png");
+			color: #2f333b;
 		}
 
 			input[type="button"].style3:hover,
@@ -1599,7 +1607,8 @@
 			input[type="reset"].style3:hover,
 			button.style3:hover,
 			.button.style3:hover {
-				background-color: #3f434b;
+				background-color: #2f333b;
+				color: #fff;
 			}
 
 			input[type="button"].style3:active,
