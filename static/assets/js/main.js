@@ -7,6 +7,78 @@
 
 (function($) {
 
+	//show feature descriptions and benefits
+	$('#wireless').click(function(){
+		$('#wireless_description').show();
+		$('#multiple_description').hide();
+		$('#looper_description').hide();
+		$('#audio_description').hide();
+		$('#midi_description').hide();
+		$('#tilt_description').hide();
+		$('#share_description').hide();
+	});
+
+	$('#multiple').click(function(){
+		$('#wireless_description').hide();
+		$('#multiple_description').show();
+		$('#looper_description').hide();
+		$('#audio_description').hide();
+		$('#midi_description').hide();
+		$('#tilt_description').hide();
+		$('#share_description').hide();
+	});
+
+	$('#looper').click(function(){
+		$('#wireless_description').hide();
+		$('#multiple_description').hide();
+		$('#looper_description').show();
+		$('#audio_description').hide();
+		$('#midi_description').hide();
+		$('#tilt_description').hide();
+		$('#share_description').hide();
+	});
+
+	$('#audio').click(function(){
+		$('#wireless_description').hide();
+		$('#multiple_description').hide();
+		$('#looper_description').hide();
+		$('#audio_description').show();
+		$('#midi_description').hide();
+		$('#tilt_description').hide();
+		$('#share_description').hide();
+	});
+
+	$('#midi').click(function(){
+		$('#wireless_description').hide();
+		$('#multiple_description').hide();
+		$('#looper_description').hide();
+		$('#audio_description').hide();
+		$('#midi_description').show();
+		$('#tilt_description').hide();
+		$('#share_description').hide();
+	});
+
+	$('#tilt').click(function(){
+		$('#wireless_description').hide();
+		$('#multiple_description').hide();
+		$('#looper_description').hide();
+		$('#audio_description').hide();
+		$('#midi_description').hide();
+		$('#tilt_description').show();
+		$('#share_description').hide();
+	});
+
+	$('#share').click(function(){
+		$('#wireless_description').hide();
+		$('#multiple_description').hide();
+		$('#looper_description').hide();
+		$('#audio_description').hide();
+		$('#midi_description').hide();
+		$('#tilt_description').hide();
+		$('#share_description').show();
+	});
+
+
 	//this changes swot context
 	$('#pedal').click(function(){
 		$('#pedalSWOT').show();

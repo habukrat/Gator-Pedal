@@ -8,6 +8,29 @@
 */
 
 /* Our added CSS */
+ 
+	.feature_description {
+		color: black;
+		text-align: justify;
+		padding-bottom: 1em;
+	}
+
+ 	#featureslist div section {
+		display: none;
+ 	}
+
+	#featureslist{
+		margin-left: 30%;
+		margin-right: 50%;
+		width: 40%;
+	}
+
+	.feature_title{
+		color: #961a12;
+		display: block;
+		text-align: left;
+		cursor: pointer;
+	}
 
 	a:link, a:visited {
 		text-decoration: none;
@@ -121,6 +144,10 @@
 
 	.red {
 		color: #961a12 !important;
+	}
+
+	.white {
+		color: #fff !important;
 	}
 
 	table, tr, th{
