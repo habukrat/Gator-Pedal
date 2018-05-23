@@ -9,6 +9,15 @@
 
 /* Our added CSS */
 
+	.logo {
+		width: 5em;
+		height: 5em;"
+		display: block;
+		text-align: center;
+		margin-right: 50%;
+		margin-left: 45%;
+	}
+
 	.smalltext {
 		margin-top: 5px;
 		margin-bottom: 5px;
